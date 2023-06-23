@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "implementação do tabnews para o curso do Felipe Deschamps!",
   "main": "index.js",
-  "scripts": {  
-    "dev": "next dev"
+  "scripts": {
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
@@ -12,5 +14,8 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
   }
 }
