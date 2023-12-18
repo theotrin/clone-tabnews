@@ -1,5 +1,5 @@
 function Home() {
-  return <h1> oi, te amo :DD </h1>;
+  return <h1> Olá, vamos codar!</h1>;
 }
 function teste() {
   console.log("1,2,3 testando");
