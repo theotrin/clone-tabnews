@@ -1,3 +1,3 @@
 # clone-tabnews
 
-implementação do tabnews para o curso do Felipe Deschamps!
+Implementação do https://www.tabnews.com.br para o https://curso.dev
