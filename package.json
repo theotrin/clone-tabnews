@@ -17,6 +17,14 @@
     "vercel-build": "npm run build",
     "build": "next build"
   },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false,
+    "net": false,
+    "dns": false,
+    "tls": false
+  },
   "author": "",
   "license": "MIT",
   "dependencies": {
