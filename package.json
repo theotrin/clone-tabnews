@@ -23,7 +23,8 @@
     "os": false,
     "net": false,
     "dns": false,
-    "tls": false
+    "tls": false,
+    "pg-native": false
   },
   "author": "",
   "license": "MIT",
