@@ -14,17 +14,6 @@
     "test:watch": "jest --watchAll --runInBand",
     "migration:create": "node-pg-migrate -m infra/migrations create",
     "migration:up": "node-pg-migrate -m infra/migrations --envPath .env.development up",
-    "vercel-build": "npm run build",
-    "build": "next build"
-  },
-  "browser": {
-    "fs": false,
-    "path": false,
-    "os": false,
-    "net": false,
-    "dns": false,
-    "tls": false,
-    "pg-native": false
   },
   "author": "",
   "license": "MIT",
